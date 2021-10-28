@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(../libs/slick/slick.css);
+@import url(../libs/slick/slick-theme.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+
+  &.hide {
+    overflow: hidden;
+  }
+}
+
+
+
+@import './variables';
+@import './header';
+@import './burger';
+@import './home';
+@import './brands';
+@import './grow';
+@import './qubit';
+@import './power';
+@import './possibilities';
+@import './trusted';
+@import './specialize';
+@import './ecosystem';
+@import './today';
+@import './connect';
+@import './footer';
+@import './media';

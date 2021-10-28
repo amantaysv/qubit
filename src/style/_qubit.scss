@@ -1,0 +1,31 @@
+.qubit {
+  padding-top: 94px;
+  padding-bottom: 91px;
+  text-align: center;
+
+  &__subtitle {
+    margin-top: 22px;
+    margin-bottom: 60px;
+    color: $black;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .wrapper {
+    h3 {
+      margin-top: 46px;
+      margin-bottom: 16px;
+      font-size: 19px;
+      line-height: 23px;
+      color: $black;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 22px;
+      color: $black;
+      max-width: 316px;
+      margin: 0 auto;
+    }
+  }
+}

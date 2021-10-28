@@ -1,0 +1,47 @@
+.header {
+  padding: 10px 0;
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__logo {
+      font-family: 'Dancing Script';
+      font-size: 34px;
+      font-weight: bold;
+    }
+
+    &-nav {
+      display: flex;
+      column-gap: 42px;
+    }
+
+    .nav-item {
+      list-style: none;
+    }
+
+    .nav-link {
+      text-decoration: none;
+      color: $primary-color;
+    }
+
+    &__btn {
+      &:first-child {
+        @include btn-book(34px, $secondary-color, #fff);
+        margin-right: 38px;
+      }
+
+      &:last-child {
+        @include btn-book(0, transparent, $primary-color);
+
+      }
+    }
+  }
+}

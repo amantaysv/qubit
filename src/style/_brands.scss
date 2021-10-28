@@ -1,0 +1,41 @@
+.brands {
+  padding: 35px 0 20px;
+
+  &__title {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 24px;
+
+    span {
+      border-bottom: 1px solid rgb(103, 48, 235);
+    }
+  }
+
+  .slick-track {
+    display: flex;
+    align-items: center;
+  }
+
+  .slick-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__item {
+    list-style: none;
+
+    img {
+      width: 100%;
+    }
+  }
+}

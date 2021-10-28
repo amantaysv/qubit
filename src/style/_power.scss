@@ -1,0 +1,37 @@
+ .power {
+   padding-top: 94px;
+   padding-bottom: 91px;
+   text-align: center;
+   background-color: #f5f5f5;
+
+   &__title {
+     margin-bottom: 28px;
+   }
+
+   &__text {
+     font-size: 15px;
+     line-height: 30px;
+     margin-bottom: 90px;
+   }
+
+   &__buttons {
+     display: flex;
+     column-gap: 22px;
+     justify-content: center;
+     margin-top: 76px;
+   }
+
+   &__img {
+     width: 100%;
+   }
+
+   &__btn {
+     &:first-child {
+       @include btn-book(45px, $secondary-color, #fff);
+     }
+
+     &:last-child {
+       @include btn-book(45px, #fff, $secondary-color);
+     }
+   }
+ }
