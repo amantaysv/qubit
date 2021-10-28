@@ -956,7 +956,7 @@ body.hide {
 
 .footer {
   background-color: #20003c;
-  padding-top: 57px;
+  padding: 57px 0 30px;
 }
 
 .footer__title {
